@@ -53,13 +53,27 @@ body {
 
 /* Animation keyframes */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(4px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes slideIn {
-  from { opacity: 0; transform: translateX(-8px); }
-  to { opacity: 1; transform: translateX(0); }
+  from {
+    opacity: 0;
+    transform: translateX(-8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .animate-fade-in {
@@ -68,4 +82,19 @@ body {
 
 .animate-slide-in {
   animation: slideIn 0.3s ease-out;
+}
+
+/* Hide Next.js Dev/Branding Indicators (Brute Force) */
+#nextjs-portal,
+[data-nextjs-portal],
+[data-nextjs-toast],
+[data-nextjs-indicator],
+nextjs-portal,
+nextjs-static-indicator,
+[class^="nextjs-"],
+[id^="nextjs-"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
