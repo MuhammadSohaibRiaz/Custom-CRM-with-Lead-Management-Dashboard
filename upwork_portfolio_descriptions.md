@@ -1,6 +1,6 @@
-# LeadFlow CRM - Portfolio Screenshot Descriptions
+# LeadFlow CRM - Portfolio Screenshot Descriptions (Upwork Ready)
 
-These descriptions are crafted to highlight the business value and technical sophistication of the application. You can use them directly on your Upwork portfolio when uploading the corresponding screenshots.
+These descriptions are under 140 characters, specifically optimized for Upwork portfolio uploads.
 
 ---
 
@@ -8,44 +8,44 @@ These descriptions are crafted to highlight the business value and technical sop
 **File**: `dashboard-desktop.png`  
 **Title**: LeadFlow CRM - Executive Dashboard  
 **Description**:  
-"A high-performance, real-time executive dashboard offering a complete overview of the sales pipeline. Built with Next.js and Tailwind CSS, it features dynamic metric cards tracking Total Leads, Pipeline Value, Conversion Rates, and Active Opportunities. The responsive Recharts integrations provide clear visual indicators of pipeline health, while the activity feed ensures the team stays updated on all recent actions."
+"High-performance real-time CRM dashboard. Features dynamic metric cards, sales pipeline overview, and activity feed built with Next.js."
 
 ---
 
 ### 2. Dashboard Overview (Mobile)
 **File**: `dashboard-mobile.png`  
-**Title**: LeadFlow CRM - Mobile-Responsive Dashboard  
+**Title**: LeadFlow CRM - Mobile Dashboard  
 **Description**:  
-"A fully responsive, mobile-optimized view of the executive dashboard. Designed prioritizing user experience (UX) and accessibility, ensuring sales agents and managers can track critical KPIs, view pipeline progress, and monitor team activity seamlessly on the go without compromising on data visibility or aesthetic appeal."
+"Fully responsive, mobile-optimized CRM dashboard. Track KPIs and pipeline progress seamlessly on any device with excellent data visibility."
 
 ---
 
 ### 3. Kanban Pipeline (Desktop)
 **File**: `pipeline-desktop.png`  
-**Title**: LeadFlow CRM - Interactive Kanban Pipeline  
+**Title**: LeadFlow CRM - Kanban Pipeline  
 **Description**:  
-"An intuitive Kanban-style pipeline interface for managing lead progression. This drag-and-drop ready layout allows sales teams to visualize the entire sales cycle—from 'New' to 'Closed Won'. It's engineered to handle dynamic state updates efficiently, demonstrating robust state management and a clean, user-centric UI design that minimizes friction for the end-user."
+"Intuitive Kanban pipeline for lead management. Drag-and-drop interface to visualize sales cycles from 'New' to 'Closed Won' efficiently."
 
 ---
 
 ### 4. Leads Management Table (Desktop)
 **File**: `leads-desktop.png`  
-**Title**: LeadFlow CRM - Comprehensive Leads Data Grid  
+**Title**: LeadFlow CRM - Leads Data Grid  
 **Description**:  
-"A powerful, data-dense leads management table featuring sortable columns, status badges, and quick-action menus. It showcases efficient data fetching and precise typography. The clean tabular layout is designed for enterprise-grade data management, allowing users to rapidly scan, filter, and access detailed prospect records."
+"Data-dense leads table with sorting, status badges, and quick actions. Designed for efficient enterprise-grade sales data management."
 
 ---
 
 ### 5. Analytics & Reporting (Desktop)
 **File**: `analytics-desktop.png`  
-**Title**: LeadFlow CRM - Advanced Analytics & Reporting  
+**Title**: LeadFlow CRM - Sales Analytics  
 **Description**:  
-"An advanced analytics view providing deep insights into sales performance. Utilizing custom-styled Recharts components, it visualizes complex data sets such as lead conversion trends and revenue predictions over time. The dark-themed, glassmorphic UI elements elevate the professional feel of the platform, demonstrating a strong command of modern data visualization techniques."
+"Advanced sales analytics with custom Recharts. Visualizes conversion trends and revenue data in a premium, glassmorphic dark-themed UI."
 
 ---
 
 ### 6. Analytics & Reporting (Mobile)
 **File**: `analytics-mobile.png`  
-**Title**: LeadFlow CRM - Mobile Analytics View  
+**Title**: LeadFlow CRM - Mobile Analytics  
 **Description**:  
-"The analytics interface flawlessly adapted for mobile devices. It highlights the platform's responsive design capabilities, ensuring that complex data visualizations remain legible, interactive, and beautifully rendered on smaller screens. A perfect demonstration of mobile-first data presentation."
+"Mobile-first sales analytics view. Complex data visualizations perfectly rendered for legibility and interaction on smaller screens."
