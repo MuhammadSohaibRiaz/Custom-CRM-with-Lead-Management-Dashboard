@@ -20,7 +20,7 @@ interface SidebarProps {
 }
 
 const navItems = [
-  { href: '/', label: 'Dashboard', icon: LayoutDashboard, roles: ['admin', 'agent'] },
+  { href: '/dashboard', label: 'Dashboard', icon: LayoutDashboard, roles: ['admin', 'agent'] },
   { href: '/leads', label: 'Leads', icon: Users, roles: ['admin', 'agent'] },
   { href: '/pipeline', label: 'Pipeline', icon: Kanban, roles: ['admin', 'agent'] },
   { href: '/agents', label: 'Agents', icon: UserCog, roles: ['admin'] },
