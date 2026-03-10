@@ -2,32 +2,67 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { ToastProvider } from '@/components/ui';
 
+const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://crm-lead-management-dashboard.vercel.app';
+
 export const metadata: Metadata = {
-  title: 'LeadFlow CRM – Lead Management Platform',
-  description: 'Custom CRM and Lead Management Dashboard for sales teams',
-  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://leadflow-crm.vercel.app'),
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: 'LeadFlow CRM – Lead Management Platform',
+    template: '%s | LeadFlow CRM',
+  },
+  description:
+    'A modern, high-performance CRM platform for managing lead pipelines, team assignments, and analytics. Built with Next.js, Tailwind CSS, and Supabase.',
+  applicationName: 'LeadFlow CRM',
+  keywords: [
+    'CRM',
+    'Lead Management',
+    'Sales Pipeline',
+    'Dashboard',
+    'Next.js',
+    'Supabase',
+    'Analytics',
+  ],
+  authors: [{ name: 'LeadFlow' }],
+  creator: 'LeadFlow',
+  icons: {
+    icon: '/logo.svg',
+    apple: '/logo.svg',
+  },
   openGraph: {
     title: 'LeadFlow CRM – Lead Management Platform',
-    description: 'Custom CRM and Lead Management Dashboard for sales teams',
-    url: '/',
-    siteName: 'LeadFlow',
+    description:
+      'A modern, high-performance CRM platform for managing lead pipelines, team assignments, and analytics. Built with Next.js, Tailwind CSS, and Supabase.',
+    url: siteUrl,
+    siteName: 'LeadFlow CRM',
     locale: 'en_US',
     type: 'website',
     images: [
       {
-        url: '/og-image.png',
+        url: `${siteUrl}/og-image.png`,
         width: 1440,
         height: 900,
-        alt: 'LeadFlow CRM Dashboard Preview',
+        alt: 'LeadFlow CRM – Dashboard Preview',
+        type: 'image/png',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'LeadFlow CRM',
-    description: 'Lead Management Dashboard for sales teams',
-    creator: '@LeadFlow',
-    images: ['/og-image.png'],
+    title: 'LeadFlow CRM – Lead Management Platform',
+    description:
+      'A modern CRM platform for managing lead pipelines, team assignments, and analytics.',
+    images: [
+      {
+        url: `${siteUrl}/og-image.png`,
+        width: 1440,
+        height: 900,
+        alt: 'LeadFlow CRM – Dashboard Preview',
+      },
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

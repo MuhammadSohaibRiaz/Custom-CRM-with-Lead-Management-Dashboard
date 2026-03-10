@@ -3,7 +3,7 @@
 These descriptions are crafted to highlight the business value and technical sophistication of the application. You can use them directly on your Upwork portfolio when uploading the corresponding screenshots.
 
 ---
-//thank you
+
 ### 1. Dashboard Overview (Desktop)
 **File**: `dashboard-desktop.png`  
 **Title**: LeadFlow CRM - Executive Dashboard  
