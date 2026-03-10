@@ -15,10 +15,10 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/logo.svg', // Will be enhanced by opengraph-image if needed
-        width: 1200,
-        height: 630,
-        alt: 'LeadFlow CRM Preview',
+        url: '/og-image.png',
+        width: 1440,
+        height: 900,
+        alt: 'LeadFlow CRM Dashboard Preview',
       },
     ],
   },
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: 'LeadFlow CRM',
     description: 'Lead Management Dashboard for sales teams',
     creator: '@LeadFlow',
-    images: ['/logo.svg'],
+    images: ['/og-image.png'],
   },
 };
 
